@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section#form_section {
+    width: 400px;
+    background-color: antiquewhite;
+    
+}
+
+.input label {
+    display: block;
+}
+
+.input input {
+    margin-block: 10px;
+}
+
+form#form_field {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
