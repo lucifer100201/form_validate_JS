@@ -14,19 +14,13 @@
           <form id="form_field">
             <div class="input">
               <label for="name">Name:</label>
-              <input
-                type="text"
-                placeholder="Enter the first name"
-                value=""
-                id="name"
-              />
+              <input type="text" placeholder="Enter the first name" id="name" />
             </div>
             <div class="input">
               <label for="lastName">Last Name:</label>
               <input
                 type="text"
-                placeholder="Enter the last name"
-                value=""
+                placeholder="Last name"
                 id="lastName"
               />
             </div>
@@ -35,9 +29,9 @@
               <input
                 type="email"
                 placeholder="Enter the email"
-                value=""
                 required
                 id="email"
+                autocomplete="username"
               />
             </div>
             <div class="input">
@@ -45,17 +39,17 @@
               <input
                 type="password"
                 placeholder="Enter the password"
-                value=""
                 id="password"
+                autocomplete="new-password"
               />
             </div>
             <div class="input">
               <label>Confirm Password:</label>
               <input
                 type="password"
-                placeholder="Enter the Confirm Password"
-                value=""
-                id="password"
+                placeholder="Confirm Password"
+                id="confirmPassword"
+                autocomplete="new-password"
               />
             </div>
             <button type="submit">Submit</button>
@@ -64,6 +58,9 @@
       </div>
     </section>
     <h1>User Details:</h1>
-    <div id="output"></div>
+    <div id="output">
+      
+    </div>
+    <script src="./script.js"></script>
   </body>
 </html>

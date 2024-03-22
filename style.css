@@ -4,10 +4,15 @@
     box-sizing: border-box;
 }
 
-section#form_section {
+#form_section {
     width: 400px;
+    margin: 20px;
     background-color: antiquewhite;
     
+}
+
+h1{
+    margin: 20px;
 }
 
 .input label {
